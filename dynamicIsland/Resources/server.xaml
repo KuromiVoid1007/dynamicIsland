@@ -1,0 +1,60 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Geometry x:Key="calculator_w6ih5dmgimidGeometry">F1 M297,297z M0,0z M33,0L33,297 264,297 264,0 33,0z M66,34L231,34 231,66 66,66 66,34z M132,198L132,164 166,164 166,198 132,198z M166,230L166,264 132,264 132,230 166,230z M100,198L66,198 66,164 100,164 100,198z M166,99L166,132 132,132 132,99 166,99z M198,164L231,164 231,198 198,198 198,164z M198,132L198,99 231,99 231,132 198,132z M100,99L100,132 66,132 66,99 100,99z M66,230L100,230 100,264 66,264 66,230z M198,264L198,230 231,230 231,264 198,264z</Geometry>
+  <DrawingGroup x:Key="calculator_w6ih5dmgimidDrawingGroup" ClipGeometry="M0,0 V297 H297 V0 H0 Z">
+    <DrawingGroup Opacity="1">
+      <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource calculator_w6ih5dmgimidGeometry}" />
+    </DrawingGroup>
+  </DrawingGroup>
+  <DrawingImage x:Key="calculator_w6ih5dmgimidDrawingImage" Drawing="{StaticResource calculator_w6ih5dmgimidDrawingGroup}" />
+  <Geometry x:Key="server_2_svgrepo_comGeometry1">F1 M24,24z M0,0z M2,17C2,15.1144 2,14.1716 2.58579,13.5858 3.17157,13 4.11438,13 6,13L18,13C19.8856,13 20.8284,13 21.4142,13.5858 22,14.1716 22,15.1144 22,17 22,18.8856 22,19.8284 21.4142,20.4142 20.8284,21 19.8856,21 18,21L6,21C4.11438,21 3.17157,21 2.58579,20.4142 2,19.8284 2,18.8856 2,17z</Geometry>
+  <Geometry x:Key="server_2_svgrepo_comGeometry2">F1 M24,24z M0,0z M2,6C2,4.11438 2,3.17157 2.58579,2.58579 3.17157,2 4.11438,2 6,2L18,2C19.8856,2 20.8284,2 21.4142,2.58579 22,3.17157 22,4.11438 22,6 22,7.88562 22,8.82843 21.4142,9.41421 20.8284,10 19.8856,10 18,10L6,10C4.11438,10 3.17157,10 2.58579,9.41421 2,8.82843 2,7.88562 2,6z</Geometry>
+  <Geometry x:Key="server_2_svgrepo_comGeometry3">F1 M24,24z M0,0z M13.5,6L18,6</Geometry>
+  <Geometry x:Key="server_2_svgrepo_comGeometry4">F1 M24,24z M0,0z M6,7L6,5</Geometry>
+  <Geometry x:Key="server_2_svgrepo_comGeometry5">F1 M24,24z M0,0z M9,7L9,5</Geometry>
+  <Geometry x:Key="server_2_svgrepo_comGeometry6">F1 M24,24z M0,0z M13.5,17L18,17</Geometry>
+  <Geometry x:Key="server_2_svgrepo_comGeometry7">F1 M24,24z M0,0z M6,18L6,16</Geometry>
+  <Geometry x:Key="server_2_svgrepo_comGeometry8">F1 M24,24z M0,0z M9,18L9,16</Geometry>
+  <DrawingGroup x:Key="server_2_svgrepo_comDrawingGroup" ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+    <GeometryDrawing Geometry="{StaticResource server_2_svgrepo_comGeometry1}">
+      <GeometryDrawing.Pen>
+                <Pen Brush="#51fba2" Thickness="1.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+      </GeometryDrawing.Pen>
+    </GeometryDrawing>
+    <GeometryDrawing Geometry="{StaticResource server_2_svgrepo_comGeometry2}">
+      <GeometryDrawing.Pen>
+                <Pen Brush="#51fba2" Thickness="1.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+      </GeometryDrawing.Pen>
+    </GeometryDrawing>
+    <GeometryDrawing Geometry="{StaticResource server_2_svgrepo_comGeometry3}">
+      <GeometryDrawing.Pen>
+                <Pen Brush="#1aa180" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" MiterLimit="1" />
+      </GeometryDrawing.Pen>
+    </GeometryDrawing>
+    <GeometryDrawing Geometry="{StaticResource server_2_svgrepo_comGeometry4}">
+      <GeometryDrawing.Pen>
+                <Pen Brush="#73dba6" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" MiterLimit="1" />
+      </GeometryDrawing.Pen>
+    </GeometryDrawing>
+    <GeometryDrawing Geometry="{StaticResource server_2_svgrepo_comGeometry5}">
+      <GeometryDrawing.Pen>
+                <Pen Brush="#73dba6" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" MiterLimit="1" />
+      </GeometryDrawing.Pen>
+    </GeometryDrawing>
+    <GeometryDrawing Geometry="{StaticResource server_2_svgrepo_comGeometry6}">
+      <GeometryDrawing.Pen>
+                <Pen Brush="#1aa180" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" MiterLimit="1" />
+      </GeometryDrawing.Pen>
+    </GeometryDrawing>
+    <GeometryDrawing Geometry="{StaticResource server_2_svgrepo_comGeometry7}">
+      <GeometryDrawing.Pen>
+                <Pen Brush="#73dba6" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" MiterLimit="1" />
+      </GeometryDrawing.Pen>
+    </GeometryDrawing>
+    <GeometryDrawing Geometry="{StaticResource server_2_svgrepo_comGeometry8}">
+      <GeometryDrawing.Pen>
+                <Pen Brush="#73dba6" Thickness="1.5" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" MiterLimit="1" />
+      </GeometryDrawing.Pen>
+    </GeometryDrawing>
+  </DrawingGroup>
+  <DrawingImage x:Key="server_2_svgrepo_comDrawingImage" Drawing="{StaticResource server_2_svgrepo_comDrawingGroup}" />
+</ResourceDictionary>

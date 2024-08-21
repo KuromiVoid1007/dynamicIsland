@@ -1,0 +1,24 @@
+﻿<Application x:Class="dynamicIsland.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:dynamicIsland"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary1.xaml" />
+                
+                <ResourceDictionary x:Name="calculator" Source="Resources\calculator.xaml"/>
+                <ResourceDictionary x:Name="server" Source="Resources\server.xaml"/>
+                <ResourceDictionary x:Name="asd" Source="Resources\asd.xaml"/>
+                <ResourceDictionary x:Name="list" Source="Resources\list.xaml"/>
+                
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+
+
+
+</Application>

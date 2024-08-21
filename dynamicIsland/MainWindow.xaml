@@ -1,0 +1,77 @@
+﻿<Window x:Class="dynamicIsland.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dynamicIsland"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Topmost="True"
+        WindowStartupLocation="Manual" Top="5" Left="1180" 
+        
+        Title="MainWindow" Height="30" Width="200" AllowsTransparency="True" Background="Transparent">
+    <Border CornerRadius="12" Background="Black" Height="30" Width="200" Grid.ColumnSpan="3">
+        <Grid>
+            <tb:TaskbarIcon Visibility="Visible" TrayLeftMouseDown="TaskbarIcon_TrayLeftMouseDown" ToolTipText="LemonIlend" IconSource="Resources/logo.ico" >
+                <tb:TaskbarIcon.ContextMenu>
+                    <ContextMenu BorderBrush="#303030"  >
+                        <MenuItem Header="Exit" Click="clic_exit" />
+                    </ContextMenu>
+                </tb:TaskbarIcon.ContextMenu>
+            </tb:TaskbarIcon>
+
+
+            
+            <!-- 
+            <Border CornerRadius="6" Height="22" Width="22" Margin="15,4,163,4" >
+                <Border.Background>
+                    <ImageBrush ImageSource="/Resources/profile.png"/>
+                </Border.Background>
+
+            </Border>
+            -->
+
+            <Button Style="{DynamicResource ButtonStyle1}"   Height="22" Width="22" Margin="15,4,163,4" Click="Button_Click_tray">
+                <Button.Background>
+                    <ImageBrush ImageSource="/profile.png"/>
+                </Button.Background>
+
+            </Button>
+
+
+
+            <Button Style="{DynamicResource ButtonStyle1}"   Height="22" Width="22"  Margin="70,4,108,4" BorderBrush="#0000"  Click="Button_Click_calc">
+                <Button.Background>
+                    <ImageBrush ImageSource="{StaticResource calculatorDrawingImage}" />
+                </Button.Background>
+            </Button>
+
+            
+            <Button Style="{DynamicResource ButtonStyle1}"   Height="22" Width="22"  Margin="100,4,78,4" BorderBrush="#0000"  Click="Button_Click_server">
+                <Button.Background>
+                    <ImageBrush ImageSource="{StaticResource server_2_svgrepo_comDrawingImage}" />
+                </Button.Background>
+            </Button>
+
+            <Button Style="{DynamicResource ButtonStyle1}"   Height="22" Width="22"  Margin="130,4,48,4" BorderBrush="#0000"  Click="Button_Click_VsCode">
+                <Button.Background>
+                    <ImageBrush ImageSource="{StaticResource codeDrawingImage}" />
+                </Button.Background>
+            </Button>
+
+            <Button Style="{DynamicResource ButtonStyle1}"   Height="22" Width="22"  Margin="160,4,18,4" BorderBrush="#0000"  Click="Button_Click_kiilRoskomnadzor">
+                <Button.Background>
+                    <ImageBrush ImageSource="{StaticResource listDrawingImage}" />
+                </Button.Background>
+            </Button>
+
+
+
+
+
+
+        </Grid>
+    </Border>
+</Window>
